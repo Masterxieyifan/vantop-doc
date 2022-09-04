@@ -1,13 +1,16 @@
 {
-  "name": "nextop",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vantop-docs",
+  "version": "0.0.1",
   "scripts": {
     "serve": "vite",
     "serve:open": "VITE_OPEN_SOURCE=true vite",
     "build": "vite build",
     "build:open": "VITE_OPEN_SOURCE=true vite build",
     "lint": "vue-cli-service lint"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -105,5 +105,5 @@ yarn.lock
 node_modules/
 lib/
 package-lock.json
-/dist
+# /dist
 src/config/version.json
