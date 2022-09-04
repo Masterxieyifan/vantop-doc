@@ -13,6 +13,7 @@ import { getExternals, } from './cdn.js';
 const externals = getExternals();
 
 export default defineConfig({
+    base: './',
     plugins: [
         // 向下兼容 vue2
         viteMarkdownPlugin(),
