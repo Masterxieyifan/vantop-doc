@@ -1,0 +1,101 @@
+.page-container {
+    .anchors-demo-block {
+        transform: translate(0);
+        overflow: hidden;
+        .anchors-item {
+            border: 1px solid #000;
+            margin-top: 20px;
+            height: 200px;
+        }
+    }
+    .sticky-header-expamle {
+        height: 300px;
+        overflow-y: scroll;
+        border: 1px solid #746b6b;
+    }
+    .md-page-list-example{
+        height: 624px;
+        .page-main-search{
+            .page-main-search-div{
+                padding-bottom: 8px;
+            }
+        }
+    }
+    .sticky-example-block{
+        transform: scale(1);
+        height: 200px;
+        border: solid 1px #000;
+    }
+
+
+    .md-scrollbar {
+        .scrollbar-demo-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 4px;
+            background: #BFD4FF;
+            color: #1F2837;
+        }
+        .flex-content {
+            display: flex;
+    
+            .scrollbar-demo-item {
+                flex-shrink: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 50px;
+                margin: 10px;
+                text-align: center;
+                border-radius: 4px;
+                background: #FFAC8E;
+                color: #1F2837;
+            }
+        }
+    }
+    .detail-frame-demo {
+        transform: scale(1);
+        .detail-frame-demo--nav {
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            background: #062e7e;
+            width: 100%;
+            height: 56px;
+            line-height: 56px;
+            color: #fff;
+            text-align: center;
+        }
+        .detail-frame-demo--block {
+            padding-top: 56px;
+            height: 400px;
+        }
+    }
+    .md-sidebar-demo {
+        display: flex;
+        .md-sidebar + .md-sidebar {
+            margin-left: 100px;
+        }
+    }
+}
+
+
+.fullscreen-block {
+    padding: 50px;
+}
+.fullscreen-full {
+    background-color: #BFD4FF!important;
+    .el-descriptions {
+        width: 800px;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+.fullscreen-normal {
+    padding: 50px;
+}
