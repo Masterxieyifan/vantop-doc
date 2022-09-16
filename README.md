@@ -1,6 +1,6 @@
 # 首页地址：https://masterxieyifan.github.io/vantop-doc/dist
 
-## Project setup
+## Project setup1
 ```
 npm install
 ```
